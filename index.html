@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seikkailupeli</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="container-map">
+            <Header4>Kartta</Header4>
+            <div class="row1">            
+                <div class="map" id=0><p>Vanha linnan torni</p></div>
+                <div class="map" id=1><p>Kaivo</p></div>
+                <div class="map" id=2><p>Aurinkoinen metsäaukio</p></div>
+            </div>
+            <div class="row2">
+                <div class="map" id=3><p>Vihainen lohikäärme</p></div>
+                <div class="map" id=4><p>Kapea polku</p></div>
+                <div class="map" id=5><p>Vanha portti</p></div>
+            </div>
+            <div class="row3">
+                <div class="map" id=6><p>Joen ranta</p></div>
+                <div class="map" id=7><p>Vanha puupenkki</p></div>
+                <div class="map" id=8><p>Kaukainen mökki</p></div>
+            </div>
+            <div class="ohje">
+                <Header4>Ohje</Header4>
+                <p>Hae kivi joen rannalta ja tiputa se kaivoon. Poimi huilu. 
+                    Mene mökille ja käytä huilua. Poimi miekka. 
+                    Poimi pullo alhaalta keskeltä. Käytä pullo ja mene lohikäärmeen luo. 
+                    Käytä miekkaa, niin voitat lohikäärmeen. Portti aukeaa lohikäärmeen kukistamisen jälkeen.<br>
+                    <br>
+                    Voit käyttää liikkumiseen tekstisyötteitä "pohjoinen", "itä", "etelä", "länsi" (ilman lainausmerkkejä).<br>
+                    Tavaroihin voit käyttää tekstisyötteitä "poimi", "käytä", "jätä" + tavaran nimi (ilman lainausmerkkejä).
+                </p>
+            </div>
+        </div>
+        <div class="container-game">
+            <img src="" alt="" id="image">
+            <input type="text" id="input" class="input" placeholder="Mitä haluat tehdä?">
+            <button>Vastaa</button>
+            <p id="output" class="output"></p>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
